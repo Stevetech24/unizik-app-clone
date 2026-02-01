@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #9c489c; */
+  /* background-color: black; */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .main-nav {
+    padding: 12px 10px;
+    background-color: #9c489c;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  .main-nav header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-left img {
+    width: 20%;
+    height: auto;
+  }
+  .nav-left h1 {
+    font-size: 1.8rem;
+  }
+  .nav-left p {
+    font-size: 1.2rem;
+  }
+  .main-nav header i {
+    font-size: 1.6rem;
+  }
+  .intro {
+    background-color: #9c489c;
+    padding-block: 65px 15px;
+    padding-inline: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* margin-bottom: 20px; */
+  }
+  .about {
+    margin-bottom: 5px;
+  }
+  .about p {
+    font-size: 1.2rem;
+  }
+  .about p:first-child {
+    margin-bottom: 2px;
+  }
+  .about2 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+  .about2 button,
+  .intro button {
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: #ffffff4d;
+  }
+  .wallet {
+    padding-inline: 10px;
+    margin-block: 20px;
+  }
+  .balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9c489c;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .balance p {
+    font-size: 1.8rem;
+  }
+  .balance button {
+    font-size: 1.6rem;
+    padding: 8px;
+    border-radius: 10px;
+    color: purple;
+    font-weight: bold;
+  }
+  .quick-access {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+  }
+  .quick-access h1 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
+  .quick-access-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .quick-access-box div {
+    background-color: #ffffff1a;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .quick-access-box div i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #9c489c;
+  }
+  .quick-access-box p {
+    font-size: 1.2rem;
+  }
+  .courses {
+    margin-bottom: 20px;
+  }
+  .courses header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding-inline: 10px;
+  }
+  .courses header i {
+    color: #9c489c;
+  }
+  .course {
+    padding-inline: 20px;
+  }
+  .course div:first-child {
+    background-color: #9c489c;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+  }
+  .course div:first-child p {
+    margin-bottom: 60px;
+  }
+  .course div :last-child {
+    display: flex;
+    justify-content: end;
+  }
+  .course div button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: purple;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .notification {
+    padding-inline: 10px;
+    padding-bottom: 70px;
+  }
+  .notification header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  .notification header i {
+    color: #9c489c;
+  }
+  .notification div {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 10px;
+    font-size: 1.4rem;
+  }
+  .notification div p {
+    padding: 15px 10px;
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .notification div p i {
+    color: #9c489c;
+  }
+  .footer-sec {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+  }
+  .first {
+    color: #9c489c;
+  }
+  .menu div p {
+    font-size: 1.2rem;
+  }
+  .menu div i {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+  }
+}
